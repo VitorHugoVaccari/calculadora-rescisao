@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: #f1f5f9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #cbd5e1; 
+  border-radius: 8px; 
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.containerForm {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px; 
+  background-color: white;
+  transition: 0.3s; 
+}
+
+.containerForm:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #1e293b; 
+    font-size: 1.5rem;
+}
+
+.proporcional {
+  display: flex;
+  flex-direction: column;
+  margin: 9px 0px;
+  gap: 10px;
+  padding: 24px;
+  border: solid 1px #bfdbfe;
+  border-radius: 8px;
+  width: 50%;
+  background-color: #f0f7ff; 
+}
+
+h2, h3 {
+    color: #475569;
+    font-size: 0.9rem;
+    margin-left: 8px;
+}
+
+.tipoRecisao {
+  padding: 10px;
+  border: solid 1px #cbd5e1;
+  border-radius: 8px;
+  margin: 8px 0px;
+  width: 100%;
+  outline: none;
+}
+
+.btnCalcular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 30px;
+  transition: 0.3s;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.btnCalcular:hover {
+  background-color: #2563eb;
+}
+
+#ferias13 {
+    display:flex;
+    gap: 15px;
+}
