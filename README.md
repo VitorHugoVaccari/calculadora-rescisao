@@ -1,40 +1,23 @@
-# 📊 Calculadora de Rescisão
+# Calculadora de Rescisão
 
-## 📖 Sobre o projeto
-Esta é uma calculadora de rescisão trabalhista que permite simular os valores que um funcionário tem a receber ao encerrar seu contrato de trabalho.
+## Sobre o projeto
+Esse projeto é uma calculadora de rescisão trabalhista. A ideia é permitir que o usuário simule quanto teria a receber ao sair de um emprego, de acordo com o tipo de rescisão.
 
-O sistema considera diferentes tipos de rescisão e coleta informações do usuário para realizar os cálculos de forma dinâmica.
+## Objetivo
+Criei esse projeto pra praticar lógica de programação e trabalhar com regras reais,. Também estou usando ele pra treinar manipulação de DOM e organização de código.
 
----
-
-## 🎯 Objetivo
-O objetivo deste projeto é praticar:
-- Lógica de programação
-- Manipulação do DOM
-- Organização de código
-- Aplicação de regras de negócio reais
-
----
-
-## 💻 Tecnologias utilizadas
+## Tecnologias
 - HTML
 - CSS
-- JavaScript (em desenvolvimento)
+- JavaScript (ainda vou implementar a lógica)
 
----
+## Funcionalidades
+- Escolha do tipo de rescisão
+- Formulário dinâmico (campos aparecem conforme a escolha)
+- Interface simples e funcional
 
-## ⚙️ Funcionalidades
-- Seleção do tipo de rescisão
-- Formulário dinâmico (campos aparecem/desaparecem conforme o tipo)
-- Interface moderna e responsiva
+## Status
+Interface já está pronta, agora vou começar a implementar a lógica dos cálculos.
 
----
-
-## 🚧 Status do projeto
-- ✅ Interface visual concluída  
-- ⏳ Lógica de cálculo em desenvolvimento  
-
----
-
-## 🧠 Observações
-O sistema foi estruturado para se adaptar a diferentes cenários de rescisão, tornando possível expandir as regras e cálculos conforme o projeto evolui.
+## Observação
+O projeto ainda está em desenvolvimento, então algumas funcionalidades ainda não estão completas.
