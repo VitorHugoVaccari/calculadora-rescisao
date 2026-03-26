@@ -15,7 +15,7 @@
           <select class="condicional tipoRecisao" id="tipoDeRecisao">
             <option selected>...</option>
             <option value="semJustaCausa">Sem Justa Causa</option>
-            <option value="pedidoDeDemissão">Pedido de Demissão</option>
+            <option value="pedidoDeDemissao">Pedido de Demissão</option>
             <option value="comJustaCausa">Com Justa Causa</option>
           </select>
         </div>
@@ -31,7 +31,7 @@
           <h3>Possui férias vencidas?</h3>
           <input type="number" id="feriasVencidas" />
         </div>
-        <div id="ferias13" data-type="semJustaCausa, pedidoDeDemissao">
+        <div id="ferias13" data-type="semJustaCausa,pedidoDeDemissao">
           <div class="condicional proporcional">
             <h2 class="subTitulo">Férias Proporcionais</h2>
             <div>
@@ -55,9 +55,9 @@
             </div>
           </div>
         </div>
-        <div class="condicional" data-type="semJustaCausa, pedidoDeDemissao">
+        <div class="condicional" data-type="semJustaCausa,pedidoDeDemissao">
           <h3>Dias de aviso prévio</h3>
-          <input type="text" id="diasAvisoPrevio" />
+          <input type="number" id="diasAvisoPrevio" />
         </div>
         <button class="btnCalcular">Calcular Recisão</button>
       </form>
