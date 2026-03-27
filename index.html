@@ -9,10 +9,10 @@
   <body>
     <div class="containerForm">
       <form>
-        <h1 class="titulo">Calculadora de Recisão</h1>
+        <h1 class="titulo">Calculadora de Rescisão</h1>
         <div>
           <h2>Escolha o tipo de recisão</h2>
-          <select class="tipoRecisao" id="tipoDeRecisao">
+          <select class="tipoRescisao" id="tipoDeRescisao" required>
             <option value="vazio" selected>...</option>
             <option value="semJustaCausa">Sem Justa Causa</option>
             <option value="pedidoDeDemissao">Pedido de Demissão</option>
@@ -21,51 +21,38 @@
         </div>
         <div class="condicional" data-type="todos">
           <h3>Salario Mensal</h3>
-          <input type="number" id="salarioMensal" />
+          <input type="number" id="salarioMensal" required />
         </div>
         <div class="condicional" data-type="todos">
           <h3>Dias trabalhados no mês da recisão</h3>
-          <input type="number" id="diasTrabalhadosMes" />
+          <input type="number" id="diasTrabalhadosMes" required />
         </div>
         <div class="condicional" data-type="todos">
           <h3>Quantos períodos de férias vencidas você possui?</h3>
-          <input type="number" id="feriasVencidas" />
+          <input type="number" id="feriasVencidas" required />
         </div>
         <div
-          id="ferias13"
-          class="condicional"
-          data-type="semJustaCausa,pedidoDeDemissao"
+          id="admissaoRescisao"
+          class="condicional proporcional"
+          data-type="todos"
         >
-          <div class="proporcional">
-            <h2 class="subTitulo">Férias Proporcionais</h2>
-            <div>
-              <h3>Meses trabalhados periodo atual</h3>
-              <input type="number" id="mesesFeriasProporcionais" />
-            </div>
-            <div>
-              <h3>Dias trabalhados peíodo atual</h3>
-              <input type="number" id="diasFeriasProporcionais" />
-            </div>
+          <h2 class="subTitulo">Admissão e Demissão</h2>
+          <div>
+            <h3>Insira a data de Admissão</h3>
+            <input type="date" id="dataAdmissao" required />
           </div>
-          <div class="proporcional">
-            <h2 class="subTitulo">13° Proporcional</h2>
-            <div>
-              <h3>Meses trabalhados no ano</h3>
-              <input type="number" id="mesesDecimoTerceiro" />
-            </div>
-            <div>
-              <h3>Dias trabalhados no ano</h3>
-              <input type="number" id="diasDecimoTerceiro" />
-            </div>
+          <div>
+            <h3>Insira a data de Demissão</h3>
+            <input type="date" id="dataDemissao" required />
           </div>
         </div>
         <div class="condicional" data-type="semJustaCausa,pedidoDeDemissao">
           <h3>Dias de aviso prévio</h3>
-          <input type="number" id="diasAvisoPrevio" />
+          <input type="number" id="diasAvisoPrevio" required />
         </div>
-        <button type="button" class="btnCalcular">Calcular Recisão</button>
+        <button type="button" class="btnCalcular">Calcular Rescisão</button>
       </form>
     </div>
   </body>
-  <script src="opcoesRecisao.js"></script>
+  <script src="opcoesRescisao.js"></script>
 </html>

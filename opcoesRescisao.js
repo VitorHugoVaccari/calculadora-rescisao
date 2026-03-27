@@ -24,6 +24,6 @@ function atualizarFormulario(vari) {
         }
       }
 
-      let tipoRecisao = document.getElementById("tipoDeRecisao");
+      let tipoRescisao = document.getElementById("tipoDeRescisao");
 
-      tipoRecisao.addEventListener("change", atualizarFormulario);
+      tipoRescisao.addEventListener("change", atualizarFormulario);

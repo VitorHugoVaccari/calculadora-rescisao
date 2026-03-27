@@ -60,12 +60,13 @@ input:focus {
 .proporcional {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 9px 0px;
   gap: 10px;
   padding: 24px;
   border: solid 1px #bfdbfe;
   border-radius: 8px;
-  width: 50%;
   background-color: #f0f7ff; 
 }
 
@@ -75,7 +76,7 @@ h2, h3 {
     margin-left: 8px;
 }
 
-.tipoRecisao {
+.tipoRescisao {
   padding: 10px;
   border: solid 1px #cbd5e1;
   border-radius: 8px;
