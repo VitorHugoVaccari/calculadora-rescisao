@@ -5,6 +5,10 @@
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
 }
 
+.hidden {
+  display: none !important;
+}
+
 body {
   display: flex;
   flex-direction: column;

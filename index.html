@@ -12,8 +12,8 @@
         <h1 class="titulo">Calculadora de Recisão</h1>
         <div>
           <h2>Escolha o tipo de recisão</h2>
-          <select class="condicional tipoRecisao" id="tipoDeRecisao">
-            <option selected>...</option>
+          <select class="tipoRecisao" id="tipoDeRecisao">
+            <option value="vazio" selected>...</option>
             <option value="semJustaCausa">Sem Justa Causa</option>
             <option value="pedidoDeDemissao">Pedido de Demissão</option>
             <option value="comJustaCausa">Com Justa Causa</option>
@@ -31,8 +31,12 @@
           <h3>Quantos períodos de férias vencidas você possui?</h3>
           <input type="number" id="feriasVencidas" />
         </div>
-        <div id="ferias13" data-type="semJustaCausa,pedidoDeDemissao">
-          <div class="condicional proporcional">
+        <div
+          id="ferias13"
+          class="condicional"
+          data-type="semJustaCausa,pedidoDeDemissao"
+        >
+          <div class="proporcional">
             <h2 class="subTitulo">Férias Proporcionais</h2>
             <div>
               <h3>Meses trabalhados periodo atual</h3>
@@ -43,7 +47,7 @@
               <input type="number" id="diasFeriasProporcionais" />
             </div>
           </div>
-          <div class="condicional proporcional">
+          <div class="proporcional">
             <h2 class="subTitulo">13° Proporcional</h2>
             <div>
               <h3>Meses trabalhados no ano</h3>
@@ -59,8 +63,9 @@
           <h3>Dias de aviso prévio</h3>
           <input type="number" id="diasAvisoPrevio" />
         </div>
-        <button class="btnCalcular">Calcular Recisão</button>
+        <button type="button" class="btnCalcular">Calcular Recisão</button>
       </form>
     </div>
   </body>
+  <script src="opcoesRecisao.js"></script>
 </html>
