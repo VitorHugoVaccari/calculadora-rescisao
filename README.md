@@ -1,23 +1,29 @@
-# Calculadora de Rescisão
+Calculadora de Rescisão
+Sobre o projeto
 
-## Sobre o projeto
-Esse projeto é uma calculadora de rescisão trabalhista. A ideia é permitir que o usuário simule quanto teria a receber ao sair de um emprego, de acordo com o tipo de rescisão.
+Esse projeto é uma calculadora de rescisão trabalhista. Ele permite que o usuário simule quanto teria a receber ao sair de um emprego, considerando o tipo de rescisão (sem justa causa, pedido de demissão ou com justa causa).
 
-## Objetivo
-Criei esse projeto pra praticar lógica de programação e trabalhar com regras reais,. Também estou usando ele pra treinar manipulação de DOM e organização de código.
+Objetivo
 
-## Tecnologias
-- HTML
-- CSS
-- JavaScript (ainda vou implementar a lógica)
+Criei esse projeto para praticar lógica de programação e trabalhar com regras reais de cálculo de rescisão. Também usei ele para treinar manipulação de DOM, organização de código e formatação dinâmica de resultados.
 
-## Funcionalidades
-- Escolha do tipo de rescisão
-- Formulário dinâmico (campos aparecem conforme a escolha)
-- Interface simples e funcional
-
-## Status
-Interface já está pronta, agora vou começar a implementar a lógica dos cálculos.
-
-## Observação
-O projeto ainda está em desenvolvimento, então algumas funcionalidades ainda não estão completas.
+Tecnologias
+HTML
+CSS
+JavaScript (com lógica de cálculo implementada)
+Funcionalidades
+Escolha do tipo de rescisão
+Formulário dinâmico (campos aparecem conforme a escolha)
+Cálculo automático de:
+Saldo de salário
+Férias vencidas
+Férias proporcionais
+13º proporcional
+Aviso prévio
+FGTS + multa, quando aplicável
+Interface simples e funcional
+Resultados exibidos de forma clara e formatada no próprio formulário
+Status
+Interface pronta
+Lógica de cálculo implementada e funcional
+Resultados exibidos dinamicamente
