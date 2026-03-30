@@ -29,7 +29,7 @@
         </div>
         <div class="condicional" data-type="todos">
           <h3>Quantos períodos de férias vencidas você possui?</h3>
-          <input type="number" id="feriasVencidas" required />
+          <input type="number" id="pFeriasVencidas" required />
         </div>
         <div
           id="admissaoRescisao"
@@ -50,9 +50,13 @@
           <h3>Dias de aviso prévio</h3>
           <input type="number" id="diasAvisoPrevio" required />
         </div>
-        <button type="button" class="btnCalcular">Calcular Rescisão</button>
+        <button type="button" class="btnCalcular" >Calcular Rescisão</button>
+
+        <div id="resultadoRescisao"></div>
+        
       </form>
     </div>
   </body>
-  <script src="opcoesRescisao.js"></script>
+  <script src="eventos.js"></script>
+  <script src="calcularRecisao.js"></script>
 </html>

@@ -1,3 +1,6 @@
+// Função que atualiza a exibição de elementos do formulário
+// com base no valor select
+
 function atualizarFormulario(vari) {
         const tipoSelecionado = vari.target.value;
         const elementos = Array.from(document.querySelectorAll(".condicional"));
